@@ -1,0 +1,30 @@
+	------------------------
+    CHARACTER REPRESENTATION
+	------------------------
+
+    
+	1. ASCII
+	   American Standard Code 
+	   for Information 
+	   Interchange
+	-> ASCII uses 7bit binary so there are 128 symbols.
+	-> IMPORTANT SYMBOLS
+		Ø 0  	-> NUL (THIS MEANS NO DATA)
+		1-32 	-> random communication codes
+		33 - 47 	-> Punctuation
+		48 -57 	-> numbers
+		58 - 64	-> more punctuation
+		65 - 90	-> UPPERCASE ALPHA BETA
+		91 - 95	-> even more punctuation
+		97 - 122	-> lowercase alphabet
+		123-126	-> more punctuation 
+		127 	-> DEL (comm code)
+	
+	EXAMPLE
+	1) Use the ascii table to write:	"Hi" Go run!
+	IN BIN, and HEX	
+
+|"		 |H		  |i	    |		|	    |G	    |o	    |r	    |u      |	    |n	    |!      |
+|34		 |72	  |105	    |34		|32	    |71	    |111	|32	    |114	|117	|110	|33     |
+|00100010|01001000|		    |		|		|	    |	    |	    |       |       |       |       |
+|0x22	 |0x48	  |0x69		|		|		|	    |	    |	    |       |       |       |       |

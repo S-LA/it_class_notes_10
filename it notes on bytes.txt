@@ -1,0 +1,61 @@
+Signed and unsigned variables
+
+-> unsigned uses all bits as
+	number values.
+-> signed used the MSD as a
+	"sign" where 0=+ & 1=-
+E.G.
+	1111 as unsigned is 15 
+	1(111) as signed   is -7
+	-(4+2+1) = -7 
+
+Combinations due to number of bits = 2^n
+	so a 4 bit value = 2^4 = 16
+For signed values we use the formula
+	-> 2^(n-1)
+	so a 4 bit signed value
+	2^(4-1) = 2^3 = 8 combinations.
+
+THE PRIMITIVE DATA TYPES (C++)
+
+	1) char - character - 1byte
+		SIGNED = -128 > 127
+		UNSIGN = 0 > 255
+		usually used to print a 
+		single letter eg 'x'
+	2) short int - short integer - 2bytes
+		SIGNED = -32 768 > 32 767
+		UNSIGN = 0 > 65 535
+
+	3) int - Integer - 4bytes
+		SIGNED =  -2 147 483 648
+			  > 2 147 483 647
+		UNSIGN = 0> 4 294 967 295
+
+	4) long int - long integer - 4bytes
+		same as int
+
+	5) bool - boolean - 1byte
+		true or false
+		 (1) or  (0)
+
+	6) float - floating point numbers(real)
+			4 bytes
+		+/- 3.4E(+/-38)
+	7) double - double precision floating 
+			point.
+			8 bytes 
+		+/-1.7E(+/-308)o
+			
+
+
+
+
+
+		 
+
+
+
+
+
+
